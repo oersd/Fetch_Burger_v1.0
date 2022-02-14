@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  justify-content: center;
+  /* margin-top: 80px; */
+}
+
+.box {
+  font-family: sans-serif;
+  margin-top: 80px;
+}
+
+.name {
+  width: 400px;
+  border-radius: 100px;
+  background-color: rgb(172, 124, 105);
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.button {
+  width: 80px;
+  margin-left: 140px;
+  margin-top: 20px;
+  border: 0px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: rgb(172, 124, 105);
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: rgba(253, 183, 53, 0.767);
+}
+
+.button:active {
+  box-shadow: inset 1px 1px 3px grey;
+}
+
+.ingredientsCont {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  border-radius: 40px;
+  background-color: rgb(172, 124, 105);
+  padding: 10px 0px;
+  margin-top: 20px;
+}
+
+.ingredients {
+  width: 250px;
+  border-radius: 40px;
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  word-wrap: break-word;
+  padding: 10px 0px;
+  margin-top: 20px;
+}
